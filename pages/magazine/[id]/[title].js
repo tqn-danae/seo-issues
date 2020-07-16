@@ -30,6 +30,7 @@ const getAllArticles = async () => {
 				id: article.id.toString(),
 			},
 		};
+		console.log(returnObject);
 		return returnObject;
 	});
 };

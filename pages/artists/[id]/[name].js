@@ -25,12 +25,14 @@ const getAllArtists = async () => {
 	const artists = await result.json();
 
 	return artists.results.map((artist) => {
-		return {
+		const returnObject = {
 			params: {
 				name: artist.formatted_name,
 				id: artist.id.toString(),
 			},
 		};
+		console.log(returnObject);
+		return returnObject;
 	});
 };
 
