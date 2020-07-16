@@ -1,0 +1,35 @@
+{
+	"name": "seo-tests",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"moment": "^2.26.0",
+		"next": "^9.4.4",
+		"next-compose-plugins": "^2.2.0",
+		"next-seo": "^4.7.1",
+		"postcss-preset-env": "^6.7.0",
+		"prop-types": "^15.7.2",
+		"react": "latest",
+		"react-dom": "latest",
+		"styled-jsx": "^3.3.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.9.6",
+		"@babel/node": "^7.8.7",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.20.0",
+		"eslint-plugin-react-hooks": "^3.0.0",
+		"file-loader": "^6.0.0",
+		"prettier": "2.0.5",
+		"url-loader": "^4.1.0"
+	}
+}
